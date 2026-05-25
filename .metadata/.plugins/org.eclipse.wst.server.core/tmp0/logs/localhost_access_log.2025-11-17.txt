@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [17/Nov/2025:21:15:03 -0400] "GET /SpringAOP/WEB-INF/classes/springAOP/AppConfig.java HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [17/Nov/2025:21:15:04 -0400] "GET /favicon.ico HTTP/1.1" 404 763

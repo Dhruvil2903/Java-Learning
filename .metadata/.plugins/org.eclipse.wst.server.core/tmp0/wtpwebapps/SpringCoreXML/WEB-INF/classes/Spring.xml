@@ -1,0 +1,10 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="h" class="helloWorld.Hello">
+    	<property name=""></property><!-- This is used when we want to inject dependencies using setter method -->
+    	<constructor-arg><!-- is used when we want to inject dependencies using constructor --></constructor-arg>
+         </bean>
+</beans>

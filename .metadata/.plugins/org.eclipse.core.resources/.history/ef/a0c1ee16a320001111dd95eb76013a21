@@ -1,0 +1,18 @@
+# Dockerfile for Java 21 + Maven
+FROM eclipse-temurin:21-jdk
+
+# Install Maven
+RUN apt-get update && apt-get install -y maven && rm -rf /var/lib/apt/lists/*
+
+# Set working directory
+WORKDIR /app
+
+# Copy project files
+COPY pom.xml .
+COPY src ./src
+
+# Build the project
+RUN mvn clean package -DskipTests
+
+# Run the app
+CMD ["java", "-jar", "target/user-registration-0.0.1-SNAPSHOT.jar"]

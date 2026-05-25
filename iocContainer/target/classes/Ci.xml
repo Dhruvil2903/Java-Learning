@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Constructor Injection -->
+	<!-- <bean id="mango1"
+		class="com.example.iocContainer.dependenciesInjection.Mango">
+		<constructor-arg value="Alphonso" />
+	</bean>
+	<bean id="basket1"
+		class="com.example.iocContainer.dependenciesInjection.FruitBasket">
+		<constructor-arg ref="mango1" />
+	</bean> -->
+
+	<!-- Setter Injection -->
+	<!-- <bean id="mango2"
+		class="com.example.iocContainer.dependenciesInjection.Mango">
+		<constructor-arg value="Kesar" />
+	</bean>
+	<bean id="basket2"
+		class="com.example.iocContainer.dependenciesInjection.FruitBasket">
+		<property name="mango" ref="mango2" />
+	</bean> 
+ -->
+	<!-- Autowire -->
+	<bean id="mango3"
+		class="com.example.iocContainer.dependenciesInjection.Mango">
+		<constructor-arg value="Langra" />
+	</bean>
+	<bean id="basket3"
+		class="com.example.iocContainer.dependenciesInjection.FruitBasket"
+		autowire="byType" />
+</beans>
+           
+           

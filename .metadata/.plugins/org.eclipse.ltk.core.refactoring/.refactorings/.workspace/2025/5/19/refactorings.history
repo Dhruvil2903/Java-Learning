@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JavaSortinDSA&apos; to &apos;JavaSortingDSA&apos;" description="Rename resource &apos;JavaSortinDSA&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JavaSortinDSA" name="JavaSortingDSA" stamp="1746640548409" updateReferences="true"/>
+</session>

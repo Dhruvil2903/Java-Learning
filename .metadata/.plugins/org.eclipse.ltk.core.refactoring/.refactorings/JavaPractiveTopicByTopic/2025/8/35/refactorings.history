@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;SystemExample&apos; to &apos;systemExample&apos;&#x0A;- Original project: &apos;JavaPractiveTopicByTopic&apos;&#x0A;- Original element: &apos;JavaPractiveTopicByTopic/src/SystemExample&apos;&#x0A;- Renamed element: &apos;JavaPractiveTopicByTopic/src/systemExample&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;SystemExample&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;SystemExample" name="systemExample" qualified="false" references="true" stamp="1756415272854" textual="false" version="1.0"/>
+</session>

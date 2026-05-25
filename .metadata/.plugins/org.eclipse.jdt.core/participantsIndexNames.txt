@@ -1,0 +1,19 @@
+INDEX VERSION 1.134
+/Users/dhruvilpatel/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1583845665.index
+/SpringCoreXML/target/generated-sources/annotations
+/Users/dhruvilpatel/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3952059419.index
+/WebAppNew/src/main/java
+/Users/dhruvilpatel/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1588754539.index
+/SpringMVC/target/generated-sources/annotations
+/Users/dhruvilpatel/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2260577429.index
+/webAppServlet/src/main/java
+/Users/dhruvilpatel/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3800281833.index
+/login/src/main/java
+/Users/dhruvilpatel/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/739307008.index
+/SpringAOP/target/generated-sources/annotations
+/Users/dhruvilpatel/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2547361124.index
+/sept2024web/src/main/java
+/Users/dhruvilpatel/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/985480132.index
+/SpringCoreAnnotationBased/target/generated-sources/annotations
+/Users/dhruvilpatel/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4025685000.index
+/HelloWorld/target/generated-sources/annotations

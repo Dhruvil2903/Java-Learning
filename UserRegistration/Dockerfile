@@ -1,0 +1,19 @@
+# Use Java 21 (Eclipse Temurin)
+FROM eclipse-temurin:21-jdk
+
+# Set working directory inside the container
+WORKDIR /app
+
+# Copy the built jar into the container
+COPY target/UserRegistration-0.0.1-SNAPSHOT.jar app.jar
+
+# Expose port 8080 (default Spring Boot)
+EXPOSE 8080
+
+# Set environment variables (Render will override these)
+ENV SPRING_DATASOURCE_URL=jdbc:mysql://localhost:3306/userdb
+ENV SPRING_DATASOURCE_USERNAME=root
+ENV SPRING_DATASOURCE_PASSWORD=Dhruvil9094
+
+# Run the Spring Boot app
+ENTRYPOINT ["java", "-jar", "app.jar"]

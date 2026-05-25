@@ -1,0 +1,18 @@
+# Use OpenJDK 21
+FROM openjdk:21-jdk-slim
+
+# Set work directory
+WORKDIR /app
+
+# Copy pom.xml and download dependencies (cache this layer)
+COPY pom.xml .
+RUN ./mvnw dependency:go-offline -B
+
+# Copy the rest of the project
+COPY . .
+
+# Build the jar
+RUN ./mvnw clean package -DskipTests
+
+# Run the app
+CMD ["java", "-jar", "target/demo-0.0.1-SNAPSHOT.jar"]

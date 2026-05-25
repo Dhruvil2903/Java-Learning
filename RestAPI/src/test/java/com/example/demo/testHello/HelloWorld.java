@@ -1,0 +1,31 @@
+package com.example.demo.testHello;
+
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.web.client.TestRestTemplate;
+import org.springframework.boot.test.web.server.LocalServerPort;
+
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+public class HelloWorld {
+
+	@LocalServerPort
+	private int port;
+	
+	@Autowired
+	private TestRestTemplate restTemplate;
+	
+	@Test
+	void testGreetings() {
+		
+		String url = "http://localhost : " + port + "/api/greeting/";
+		
+		String response = restTemplate.getForObject(url, String.class);
+		
+		assertThat(response).isEqualTo("Hello World");
+	}
+
+}

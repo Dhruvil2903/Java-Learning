@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Datatypes&apos; to &apos;datatypes&apos;&#x0A;- Original project: &apos;DataTypesVariables&apos;&#x0A;- Original element: &apos;DataTypesVariables/src/Datatypes&apos;&#x0A;- Renamed element: &apos;DataTypesVariables/src/datatypes&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Datatypes&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Datatypes" name="datatypes" qualified="false" references="true" stamp="1767554308052" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;registeringUserObjectsIntoSpring.UserDao&apos; to &apos;UserEntity&apos;&#x0A;- Original project: &apos;SpringCoreXML&apos;&#x0A;- Original element: &apos;registeringUserObjectsIntoSpring.UserDao&apos;&#x0A;- Renamed element: &apos;registeringUserObjectsIntoSpring.UserEntity&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;UserDao&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;registeringUserObjectsIntoSpring{UserDao.java[UserDao" matchStrategy="1" name="UserEntity" qualified="false" references="true" similarDeclarations="false" stamp="1758205792407" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [17/Sep/2025:22:05:37 -0300] "GET /SpringCoreXML/WEB-INF/classes/SpringStraightValues/MainClass.java HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [17/Sep/2025:22:05:37 -0300] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [17/Sep/2025:22:14:59 -0300] "GET /SpringCoreXML/WEB-INF/classes/StreightValue.xml HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [17/Sep/2025:22:18:14 -0300] "GET /SpringCoreXML/WEB-INF/classes/SpringStraightValues/MainClass.java HTTP/1.1" 404 683

@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Mon Nov 17 21:17:34 AST 2025
+org.eclipse.jst.jee.server\:/binary\:/Users/dhruvilpatel/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.42/tomcat-embed-el-10.1.42.jar=WEB-INF/lib/tomcat-embed-el-10.1.42.jar
+org.eclipse.jst.jee.server\:/binary\:/Users/dhruvilpatel/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.42/tomcat-embed-websocket-10.1.42.jar=WEB-INF/lib/tomcat-embed-websocket-10.1.42.jar
+org.eclipse.jst.jee.server\:/binary\:/Users/dhruvilpatel/.m2/repository/org/springframework/spring-web/6.2.6/spring-web-6.2.6.jar=WEB-INF/lib/spring-web-6.2.6.jar
+org.eclipse.jst.jee.server\:/binary\:/Users/dhruvilpatel/.m2/repository/org/springframework/spring-web/6.2.8/spring-web-6.2.8.jar=WEB-INF/lib/spring-web-6.2.8.jar
